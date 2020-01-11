@@ -27,6 +27,8 @@ cmake -G "Visual Studio 10 2010" .. -DSDL2_INCLUDE_DIRS="C:\SDL2-2.0.10\include;
 
 To generate everywhere else:
 ```
+export SDL2_INCLUDE_DIRS=/usr/include/SDL2
+export SDL2_LIBRARIES=/usr/lib/x86_64-linux-gnu/libSDL2-2.0.so
 mkdir flibitBuild
 cd flibitBuild
 cmake ..
